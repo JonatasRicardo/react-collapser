@@ -1,11 +1,11 @@
 {
-  "name": "react-collapser",
+  "name": "@jonatasricardo/react-collapser",
   "version": "1.0.0",
   "author": "Jônatas Santos <jonatasricardo90@gmail.com>",
   "description": "A simple collapse maker for React",
   "repository": {
     "type": "git",
-    "url": "https://github.com/JonatasRicardo/react-collapser"
+    "url": "git+https://github.com/JonatasRicardo/react-collapser.git"
   },
   "keywords": [
     "react",
@@ -41,5 +41,9 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JonatasRicardo/react-collapser/issues"
+  },
+  "homepage": "https://github.com/JonatasRicardo/react-collapser#readme"
 }
