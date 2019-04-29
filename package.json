@@ -1,0 +1,45 @@
+{
+  "name": "react-collapser",
+  "version": "1.0.0",
+  "author": "Jônatas Santos <jonatasricardo90@gmail.com>",
+  "description": "A simple collapse maker for React",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JonatasRicardo/react-collapser"
+  },
+  "keywords": [
+    "react",
+    "collapse"
+  ],
+  "main": "dist/Collapser/index.js",
+  "dependencies": {
+    "babel-runtime": "^6.23.0",
+    "prop-types": "^15.5.4",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-plugin-transform-es2015-modules-umd": "^6.24.1",
+    "babel-plugin-transform-object-assign": "^6.22.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "react-scripts": "2.1.8"
+  },
+  "peerDependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "scripts": {
+    "prepublishOnly": "babel --plugins transform-es2015-modules-umd src/modules --ignore __tests__ --out-dir ./dist --copy-files",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "license": "MIT"
+}
