@@ -6,8 +6,8 @@ A simple collapser solution for ReactJS
 ```js
   import { CollapserContainer, CollapserBody, CollapserButton } from './Collapser';
 ```
-```js
-    <CollapserContainer>
+```jsx
+    <CollapserContainer> // defines the collapse context
       <div className="card">
           <div className="card-header">
               <h3>
