@@ -4,7 +4,7 @@ A simple collapser solution for ReactJS
 ## Getting Started
 
 ```js
-  import { CollapserBody, CollapserContainer, CollapserButton } from './Collapser';
+  import { CollapserContainer, CollapserBody, CollapserButton } from './Collapser';
 ```
 ```js
     <div className="card">
