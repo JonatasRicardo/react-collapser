@@ -7,7 +7,7 @@ A simple collapser solution for ReactJS
   import { CollapserContainer, CollapserBody, CollapserButton } from './Collapser';
 ```
 ```jsx
-    <CollapserContainer> // defines the collapse context
+    <CollapserContainer> {/* defines the collapse context */}
       <div className="card">
           <div className="card-header">
               <h3>
@@ -15,10 +15,10 @@ A simple collapser solution for ReactJS
                   <CollapserButton
                       onButton={<button class="btn btn-primary float-right" type="button">+</button>}
                       offButton={<button class="btn btn-primary float-right" type="button">-</button>}
-                  />
+                  /> {/* button to control the collapse toggle */}
               </h3>
           </div>
-          <CollapserBody>
+          <CollapserBody> {/* content to be collapsed or not */}
               <div className="card-body">
                   Body
               </div>
